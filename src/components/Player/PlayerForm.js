@@ -12,7 +12,7 @@ export default function PlayerForm() {
     const submitPlayer = (event) => {
         event.preventDefault()
 
-        axios.post('http://localhost:4000/players', {
+        axios.post('https://lynda-mern.herokuapp.com/players', {
             firstName: firstName,
             lastName: lastName,
             email: email,
